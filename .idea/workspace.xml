@@ -4,27 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc3af73-9754-4b98-9c7a-d3e52e330eb8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/driver/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/config/Browser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/config/SeleniumDriverConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/pageObject/LoginPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/pageObject/MarketPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/pageObject/ProductPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/MarketSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/ProductSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Market.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Product.feature" afterDir="false" />
+    <list default="true" id="7dc3af73-9754-4b98-9c7a-d3e52e330eb8" name="Changes" comment="ADD - Adicionando automação com Java, Selenium e Cucumber.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/hooks/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/config/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/config/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/config/SeleniumDriverConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/config/SeleniumDriverConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/pageObject/LoginPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/pageObject/LoginPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +69,7 @@
       <module name="JavaCucumberSeleniumAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.jackson.*" />
+          <option name="PATTERN" value="br.com.jackson.hooks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,6 +95,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662178385288</updated>
     </task>
+    <task id="LOCAL-00001" summary="ADD - Adicionando automação com Java, Selenium e Cucumber.">
+      <created>1662183595433</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662183595433</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,5 +115,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ADD - Adicionando automação com Java, Selenium e Cucumber." />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD - Adicionando automação com Java, Selenium e Cucumber." />
   </component>
 </project>
