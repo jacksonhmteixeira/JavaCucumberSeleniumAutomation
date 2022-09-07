@@ -1,35 +1,34 @@
 package br.com.jackson.utils;
 
-import br.com.jackson.config.SeleniumDriverConfig;
-import jdk.jfr.Timespan;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.sql.Time;
 import java.time.Duration;
 
 public class Utils {
 
     private WebDriver driver;
 
-    public Utils(WebDriver driver){
+    public Utils(WebDriver driver) {
         this.driver = driver;
     }
 
-    public void click(String element){
-        this.driver.findElement(By.id(element)).click();
+    public void click(By element) {
+        this.driver.findElement(element).click();
     }
 
-    public void waitForElementPresent(String element) throws InterruptedException {
-        Thread.sleep(2000);
-    }
-    public void fillField(String element, String value){
-        this.driver.findElement(By.id(element)).sendKeys(value);
+    public void waitForElementPresent(By element) {
+        WebDriverWait esperarElemento = new WebDriverWait(this.driver, Duration.ofSeconds(60));
+        esperarElemento.until(ExpectedConditions.visibilityOfElementLocated(element));
     }
 
-    public void returnLoginPage(){
+    public void fillField(By element, String value) {
+        this.driver.findElement(element).sendKeys(value);
+    }
+
+    public void returnLoginPage() {
         this.driver.get("https://plataforma.engenheiroqa.com/#/login");
     }
 }

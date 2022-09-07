@@ -7,7 +7,7 @@ public class Browser {
     private WebDriver driver;
     private final String URL = "https://plataforma.engenheiroqa.com/";
 
-    public Browser( ){
+    public Browser() {
         this.driver = SeleniumDriverConfig.Instance().driver;
     }
 

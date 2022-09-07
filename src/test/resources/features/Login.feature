@@ -1,6 +1,6 @@
 Feature: [LOGIN]
 
-  @login @LoginValid @selenium
+  @LoginPage @LoginValid @selenium
   Scenario Outline: [LOGGIN IN]
     Given I am on the Login Page
     When filling with '<email>' and '<password>'
@@ -8,10 +8,10 @@ Feature: [LOGIN]
     Then the system directs you to the home pages
 
     Examples:
-      |email                        |password       |
-      |plataforma@engenheiroqa.com  |plataformaEQA  |
+      | email                       | password      |
+      | plataforma@engenheiroqa.com | plataformaEQA |
 
-  @login @LoginValid @selenium
+  @LoginPage @LoginValid @selenium
   Scenario Outline: [LOGGIN IN]
     Given I am on the Login Page
     When filling with '<email>' and '<password>'
@@ -19,5 +19,5 @@ Feature: [LOGIN]
     Then the system directs you to the home pages
 
     Examples:
-      |email                        |password       |
-      |plataforma@engenheiroqa.com  |plataformaEQA  |
+      | email                       | password      |
+      | plataforma@engenheiroqa.com | plataformaEQA |

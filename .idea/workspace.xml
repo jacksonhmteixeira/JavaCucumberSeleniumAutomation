@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc3af73-9754-4b98-9c7a-d3e52e330eb8" name="Changes" comment="ADD - Adicionando automação com Java, Selenium e Cucumber.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/hooks/Hooks.java" afterDir="false" />
+    <list default="true" id="7dc3af73-9754-4b98-9c7a-d3e52e330eb8" name="Changes" comment="ADD - adding new scenarios and architecture updates.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/config/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/config/Browser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/config/SeleniumDriverConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/config/SeleniumDriverConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/hooks/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/pageObject/LoginPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/pageObject/LoginPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/LoginSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/utils/Utils.java" afterDir="false" />
@@ -53,10 +52,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -102,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662183595433</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ADD - adding new scenarios and architecture updates.">
+      <created>1662287483304</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662287483304</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ADD - Adicionando automação com Java, Selenium e Cucumber." />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD - Adicionando automação com Java, Selenium e Cucumber." />
+    <MESSAGE value="ADD - adding new scenarios and architecture updates." />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD - adding new scenarios and architecture updates." />
   </component>
 </project>

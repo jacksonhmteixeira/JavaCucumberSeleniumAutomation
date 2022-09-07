@@ -16,13 +16,13 @@ public class LoginSteps {
     }
 
     @When("filling with {string} and {string}")
-    public void filling_with_and(String email, String password) throws InterruptedException{
+    public void filling_with_and(String email, String password) {
         this.loginPageObject.fillEmail(email);
         this.loginPageObject.fillPassword(password);
     }
 
     @When("click the enter button")
-    public void click_the_enter_button() throws InterruptedException{
+    public void click_the_enter_button() {
         this.loginPageObject.clickEnterButton();
     }
 
