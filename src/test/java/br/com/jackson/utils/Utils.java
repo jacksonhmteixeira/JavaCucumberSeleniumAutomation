@@ -9,7 +9,7 @@ import java.time.Duration;
 
 public class Utils {
 
-    private WebDriver driver;
+    private final WebDriver driver;
 
     public Utils(WebDriver driver) {
         this.driver = driver;
@@ -24,11 +24,16 @@ public class Utils {
         esperarElemento.until(ExpectedConditions.visibilityOfElementLocated(element));
     }
 
+    public void waitForTextPresentInElement(By element, String text) {
+        WebDriverWait waitElement = new WebDriverWait(this.driver, Duration.ofSeconds(60));
+        waitElement.until(ExpectedConditions.textToBePresentInElement(driver.findElement(element), text));
+    }
+
     public void fillField(By element, String value) {
         this.driver.findElement(element).sendKeys(value);
     }
 
-    public void returnLoginPage() {
+    public void backToLoginPage() {
         this.driver.get("https://plataforma.engenheiroqa.com/#/login");
     }
 }

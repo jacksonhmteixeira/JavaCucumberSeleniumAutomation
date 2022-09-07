@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 
 public class LoginSteps {
 
-    private WebDriver driver = SeleniumDriverConfig.Instance().driver;
+    private final WebDriver driver = SeleniumDriverConfig.Instance().driver;
     LoginPageObject loginPageObject = new LoginPageObject(driver);
 
     @Given("I am on the Login Page")
@@ -30,4 +30,20 @@ public class LoginSteps {
     public void the_system_directs_you_to_the_home_pages() {
 
     }
+
+    @Then("the system display the message {string}")
+    public void the_system_display_the_message(String errorMessage) {
+        this.loginPageObject.verifyLoginInvalidMessage(errorMessage);
+    }
+
+    @When("not filling the required field")
+    public void not_filling_the_required_field() {
+        this.loginPageObject.clickOnTheFieldToSeeTheRequiredFieldMessage();
+    }
+
+    @Then("the system displays the message {string} and {string}")
+    public void the_system_displays_the_message_and(String emailErrorMessage, String passwordErrorMessage) {
+        this.loginPageObject.checkLoginRequiredMessage(emailErrorMessage, passwordErrorMessage);
+    }
+
 }
