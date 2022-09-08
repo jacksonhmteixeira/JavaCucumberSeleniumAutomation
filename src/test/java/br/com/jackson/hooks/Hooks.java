@@ -16,17 +16,11 @@ public class Hooks {
         browser.putURL();
     }
 
-    @After("@LoginPage")
+    @After
     public void afterScenarioReturnLoginPage() {
         WebDriver driver = SeleniumDriverConfig.Instance().driver;
         Utils utils = new Utils(driver);
         utils.backToLoginPage();
-    }
-
-    @After("@HomePage")
-    public void afterScenarioReturnHomePage() {
-        WebDriver driver = SeleniumDriverConfig.Instance().driver;
-        Utils utils = new Utils(driver);
     }
 
     @AfterAll

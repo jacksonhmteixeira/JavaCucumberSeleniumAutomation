@@ -1,31 +1,31 @@
 Feature: [LOGIN]
 
-  @LoginPage @LoginValid
-  Scenario Outline: [LOGIN] [LOGGIN IN]
+  Background: [LOGIN PAGE]
     Given I am on the Login Page
-    When filling with '<email>' and '<password>'
-    And click the enter button
-    Then the system directs you to the home pages
+
+  @Login @LoginValid
+  Scenario Outline: [LOGIN] [LOGGIN IN]
+    Given the user fill in the login data with '<email>' and '<password>'
+    When to click the enter button
+    Then the system directs to the dashboard
 
     Examples:
       |email                        |password       |
       |plataforma@engenheiroqa.com  |plataformaEQA  |
 
-  @LoginPage @ErrorMessage
+  @Login @ErrorMessage
   Scenario Outline: [LOGIN] [ERROR MESSAGE]
-    Given I am on the Login Page
-    When filling with '<email>' and '<password>'
-    And click the enter button
+    Given the user fill in the login data with '<email>' and '<password>'
+    When to click the enter button
     Then the system display the message '<errorMessage>'
 
     Examples:
       |email              |password   | errorMessage              |
       |teste@teste.com    |teste      | Usuário/Senha incorreto!  |
 
-  @LoginPage @MandatoryMessage
+  @Login @MandatoryMessage
   Scenario Outline: [MANDATORY MESSAGE]
-    Given I am on the Login Page
-    When not filling the required field
+    Given the user does not fill in the required field
     Then the system displays the message '<emailErrorMessage>' and '<passwordErrorMessage>'
 
     Examples:

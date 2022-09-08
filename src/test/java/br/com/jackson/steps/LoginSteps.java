@@ -15,18 +15,18 @@ public class LoginSteps {
         this.loginPageObject.verifyLoginPageVisible();
     }
 
-    @When("filling with {string} and {string}")
+    @When("the user fill in the login data with {string} and {string}")
     public void filling_with_and(String email, String password) {
         this.loginPageObject.fillEmail(email);
         this.loginPageObject.fillPassword(password);
     }
 
-    @When("click the enter button")
+    @When("to click the enter button")
     public void click_the_enter_button() {
         this.loginPageObject.clickEnterButton();
     }
 
-    @Then("the system directs you to the home pages")
+    @Then("the system directs to the dashboard")
     public void the_system_directs_you_to_the_home_pages() {
 
     }
@@ -36,7 +36,7 @@ public class LoginSteps {
         this.loginPageObject.verifyLoginInvalidMessage(errorMessage);
     }
 
-    @When("not filling the required field")
+    @When("the user does not fill in the required field")
     public void not_filling_the_required_field() {
         this.loginPageObject.clickOnTheFieldToSeeTheRequiredFieldMessage();
     }
@@ -45,5 +45,4 @@ public class LoginSteps {
     public void the_system_displays_the_message_and(String emailErrorMessage, String passwordErrorMessage) {
         this.loginPageObject.checkLoginRequiredMessage(emailErrorMessage, passwordErrorMessage);
     }
-
 }
