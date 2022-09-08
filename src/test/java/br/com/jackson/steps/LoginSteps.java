@@ -10,12 +10,12 @@ public class LoginSteps {
     private final WebDriver driver = SeleniumDriverConfig.Instance().driver;
     LoginPageObject loginPageObject = new LoginPageObject(driver);
 
-    @Given("I am on the Login Page")
+    @Given("that the user is login page")
     public void i_am_on_the_login_page() {
         this.loginPageObject.verifyLoginPageVisible();
     }
 
-    @When("the user fill in the login data with {string} and {string}")
+    @When("that the user fill in the login data with {string} and {string}")
     public void filling_with_and(String email, String password) {
         this.loginPageObject.fillEmail(email);
         this.loginPageObject.fillPassword(password);
@@ -36,7 +36,7 @@ public class LoginSteps {
         this.loginPageObject.verifyLoginInvalidMessage(errorMessage);
     }
 
-    @When("the user does not fill in the required field")
+    @When("that the user does not fill in the required field")
     public void not_filling_the_required_field() {
         this.loginPageObject.clickOnTheFieldToSeeTheRequiredFieldMessage();
     }

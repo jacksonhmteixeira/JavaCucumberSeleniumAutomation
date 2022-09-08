@@ -8,7 +8,7 @@ public class DashboardPageObject {
 
     private final Utils utils;
 
-    public DashboardPageObject(WebDriver driver){
+    public DashboardPageObject(WebDriver driver) {
         this.utils = new Utils(driver);
     }
 

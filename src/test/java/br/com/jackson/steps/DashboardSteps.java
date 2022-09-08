@@ -1,10 +1,16 @@
 package br.com.jackson.steps;
 
+import br.com.jackson.config.SeleniumDriverConfig;
+import br.com.jackson.pageObject.DashboardPageObject;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.WebDriver;
 
 public class DashboardSteps {
+
+    private final WebDriver driver = SeleniumDriverConfig.Instance().driver;
+    private final DashboardPageObject dashboardPageObject = new DashboardPageObject(driver);
 
     @Given("that the user is on the dashboard")
     public void that_the_user_is_on_the_dashboard() {
