@@ -14,12 +14,12 @@ public class DashboardSteps {
 
     @Given("that the user is on the dashboard")
     public void that_the_user_is_on_the_dashboard() {
-
+        this.dashboardPageObject.checkDashboardPageIsVibible();
     }
 
     @When("click the button Visualizar Produto")
     public void click_the_button_visualizar_produto() {
-
+        this.dashboardPageObject.clickOnTheViewProductButton();
     }
 
     @Then("the system directs to the product pages")

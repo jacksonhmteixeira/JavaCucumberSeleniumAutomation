@@ -13,21 +13,21 @@ public class MarketSteps {
 
     @When("to click on the Market Option")
     public void to_click_on_the_market_option() {
-
+        this.marketPageObject.clickOnTheMarketButton();
     }
 
     @Then("the system directs you to the market pages")
     public void the_system_directs_you_to_the_market_pages() {
-
+        this.marketPageObject.itsOnTheMarketScreen();
     }
 
     @When("the user to fill in the search field with {string}")
     public void the_user_to_fill_in_the_search_field_with_teclado(String productName) {
-
+        this.marketPageObject.toFillInTheProductSearchField(productName);
     }
 
     @Then("the system displays the searched {string}")
     public void the_system_displays_the_searched(String productName) {
-
+        this.marketPageObject.checkReturnedProduct(productName);
     }
 }

@@ -20,7 +20,7 @@ Feature: [MARKET]
 
     Examples:
       | product               |
-    | Mouse                 |
+      | Mouse                 |
       | Monitor 18 Polegadas  |
       | Teclado               |
       | Monitor 24" polegadas |

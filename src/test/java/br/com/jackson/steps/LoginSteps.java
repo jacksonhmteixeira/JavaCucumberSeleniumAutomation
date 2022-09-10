@@ -1,6 +1,7 @@
 package br.com.jackson.steps;
 
 import br.com.jackson.config.SeleniumDriverConfig;
+import br.com.jackson.pageObject.DashboardPageObject;
 import br.com.jackson.pageObject.LoginPageObject;
 import io.cucumber.java.en.*;
 import org.openqa.selenium.WebDriver;
@@ -9,6 +10,7 @@ public class LoginSteps {
 
     private final WebDriver driver = SeleniumDriverConfig.Instance().driver;
     LoginPageObject loginPageObject = new LoginPageObject(driver);
+    DashboardPageObject dashboardPageObject = new DashboardPageObject(driver);
 
     @Given("that the user is login page")
     public void i_am_on_the_login_page() {
@@ -28,7 +30,7 @@ public class LoginSteps {
 
     @Then("the system directs to the dashboard")
     public void the_system_directs_you_to_the_home_pages() {
-
+        this.dashboardPageObject.checkDashboardPageIsVibible();
     }
 
     @Then("the system display the message {string}")
