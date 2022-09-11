@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc3af73-9754-4b98-9c7a-d3e52e330eb8" name="Changes" comment="ADD and UPDATE - Rafactoring code and new scenarios.">
+    <list default="true" id="7dc3af73-9754-4b98-9c7a-d3e52e330eb8" name="Changes" comment="ADD - Adding new features.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/pageObject/DashboardPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/pageObject/DashboardPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/pageObject/MarketPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/pageObject/MarketPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/DashboardSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/DashboardSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/MarketSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/MarketSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/pageObject/ProductPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/pageObject/ProductPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/ProductSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/ProductSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Market.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Market.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Product.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Product.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662617783109</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ADD - Adding new features.">
+      <created>1662793860520</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662793860520</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +160,7 @@
     <MESSAGE value="ADD - New Scenarios (Login Page)." />
     <MESSAGE value="ADD - Updatind the scenarios Login Page and new scenarios Dashboard page." />
     <MESSAGE value="ADD and UPDATE - Rafactoring code and new scenarios." />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD and UPDATE - Rafactoring code and new scenarios." />
+    <MESSAGE value="ADD - Adding new features." />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD - Adding new features." />
   </component>
 </project>

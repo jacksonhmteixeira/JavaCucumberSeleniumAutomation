@@ -23,4 +23,4 @@ Feature: [MARKET]
       | Mouse                 |
       | Monitor 18 Polegadas  |
       | Teclado               |
-      | Monitor 24" polegadas |
+      | Monitor 24 polegadas |
