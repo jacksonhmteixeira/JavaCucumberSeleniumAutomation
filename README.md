@@ -41,7 +41,7 @@ Para ter acesso ao repositório:
     # CLONAR REPOSITÓRIO DA AUTOMAÇÃO
     git clone https://github.com/jacksonhmteixeira/JavaCucumberSeleniumAutomation.git
 ```
-### 5° - Abrir o projeto no *[Intellij](https://www.jetbrains.com/pt-br/pycharm/download/#section=windows)*:
+### 5° - Abrir o projeto no *[Intellij](https://www.jetbrains.com/idea/download/)*:
 
 Para o desenvolvimento do teste automatizado foi utilizado o Intellij Community, no entanto, é recomendado ter a ferramenta instalada na máquina. Caso tenha instalado corretamente, abra o projeto clonado do GitHub.
 
