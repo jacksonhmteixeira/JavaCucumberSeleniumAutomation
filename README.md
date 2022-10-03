@@ -39,7 +39,7 @@ Para ter acesso ao repositório:
 
 ```bash
     # CLONAR REPOSITÓRIO DA AUTOMAÇÃO
-    https://github.com/jacksonhmteixeira/JavaCucumberSeleniumAutomation.git
+    git clone https://github.com/jacksonhmteixeira/JavaCucumberSeleniumAutomation.git
 ```
 ### 5° - Abrir o projeto no *[Intellij](https://www.jetbrains.com/pt-br/pycharm/download/#section=windows)*:
 
