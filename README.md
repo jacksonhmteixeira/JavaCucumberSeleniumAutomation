@@ -35,6 +35,8 @@ Foi feito um projeto completo utilizando as tecnologias abaixo:
 
 ### 4° - Clonar o projeto do *[GitHub](https://github.com/)*:
 
+Para ter acesso ao repositório:
+
 ```bash
     # CLONAR REPOSITÓRIO DA AUTOMAÇÃO
     https://github.com/jacksonhmteixeira/JavaCucumberSeleniumAutomation.git
