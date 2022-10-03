@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc3af73-9754-4b98-9c7a-d3e52e330eb8" name="Changes" comment="ADD - Adding new features.">
+    <list default="true" id="7dc3af73-9754-4b98-9c7a-d3e52e330eb8" name="Changes" comment="ADD - Adding new features of product.">
+      <change afterPath="$PROJECT_DIR$/files/arquitetura do projeto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/caminho do driver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/como executar os testes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/relatorio da execucao.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/pageObject/ProductPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/pageObject/ProductPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/ProductSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/ProductSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Market.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Market.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Product.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Product.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/jacksonhmt/Documents/REPOSITORIOS/JavaCucumberSeleniumAutomation/files",
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -55,6 +58,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/files" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/driver" />
     </key>
@@ -139,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662793860520</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ADD - Adding new features of product.">
+      <created>1662911064454</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662911064454</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +174,7 @@
     <MESSAGE value="ADD - Updatind the scenarios Login Page and new scenarios Dashboard page." />
     <MESSAGE value="ADD and UPDATE - Rafactoring code and new scenarios." />
     <MESSAGE value="ADD - Adding new features." />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD - Adding new features." />
+    <MESSAGE value="ADD - Adding new features of product." />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD - Adding new features of product." />
   </component>
 </project>

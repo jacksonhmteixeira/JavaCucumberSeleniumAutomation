@@ -19,4 +19,8 @@ Feature: [PRODUCT]
 
     Examples:
       | productName | theAmount | purchasePrice | salePrice | productType |
-      | iphone 5s   | 5         | 4.900,90      | 5.550,00  | Celular     |
+      | iphone 5s   | 5         | 400,00        | 540,00    | Celular     |
+      | iphone XR   | 2         | 1.400,00      | 1.900,00  | Celular     |
+      | iphone 14   | 3         | 5.900,90      | 6.550,00  | Celular     |
+      | iphone 13   | 4         | 4.900,90      | 5.550,00  | Celular     |
+      | iphone 12   | 5         | 3.900,90      | 4.550,00  | Celular     |
