@@ -34,9 +34,11 @@ public class ProductSteps {
         this.productPageObject.clickOnTheNewProductButton();
     }
 
-    @When("fill form with {string}, {string}, {string}, {string}, {string}")
-    public void fill_form_with(String productName, String theAmount, String purchasePrice, String salePrice, String productType) throws InterruptedException {
+    @When("fill form with {string}, {string}, {string}, {string}, {string}, {string}")
+    public void fill_form_with(String productName, String theAmount, String purchasePrice, String salePrice, String productType, String description) throws InterruptedException {
         this.productPageObject.fillAllFields(productName, theAmount, purchasePrice, salePrice, productType);
+        this.productPageObject.fillFileField();
+        this.productPageObject.fillCKEditorField(description);
         Thread.sleep(3000);
     }
 }

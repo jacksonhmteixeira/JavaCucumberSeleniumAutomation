@@ -2,6 +2,7 @@ package br.com.jackson.utils;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -35,5 +36,17 @@ public class Utils {
 
     public void backToLoginPage() {
         this.driver.get("https://plataforma.engenheiroqa.com/#/login");
+    }
+
+    public void insertImageFileInField(By element, String imageFilePath){
+        this.driver.findElement(element).sendKeys(imageFilePath);
+    }
+
+    public void insertValueInCKEditorField(By element, String value){
+        WebElement iframe = driver.findElement(element).findElement(By.tagName("iframe"));
+        driver.switchTo().frame(iframe);
+        WebElement tinymce = driver.findElement(By.tagName("body"));
+        tinymce.clear();
+        tinymce.sendKeys(value);
     }
 }

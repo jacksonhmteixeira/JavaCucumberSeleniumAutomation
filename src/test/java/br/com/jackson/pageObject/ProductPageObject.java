@@ -15,7 +15,10 @@ public class ProductPageObject {
     private final By purchasePriceFieldId = By.id("inputPrecoCompra");
     private final By salePriceFieldId = By.id("inputPrecoVenda");
     private final By productTypeFieldId = By.id("inputTipoProduto");
-    private final By descriptionFieldId = By.id("cke_editor-2");
+    private final By descriptionFieldId = By.id("inputDescricao");
+    private final By imageFileId = By.id("inputImagemProduto");
+    private final String imageFilePath = "/Users/jacksonhmt/Documents/REPOSITORIOS/JavaCucumberSeleniumAutomation/files/arquitetura do projeto.png";
+    private final String pageTitle = "Pesquisar Produto";
 
     public ProductPageObject(WebDriver driver) {
         this.utils = new Utils(driver);
@@ -27,7 +30,7 @@ public class ProductPageObject {
     }
 
     public void itsOnTheProductScreen() {
-        this.utils.waitForTextPresentInElement(this.productTittleXpath, "Pesquisar Produto");
+        this.utils.waitForTextPresentInElement(this.productTittleXpath, this.pageTitle);
     }
 
     public void clickOnTheNewProductButton() {
@@ -42,5 +45,13 @@ public class ProductPageObject {
         this.utils.fillField(this.purchasePriceFieldId, purchasePrice);
         this.utils.fillField(this.salePriceFieldId, salePrice);
         this.utils.fillField(this.productTypeFieldId, productType);
+    }
+
+    public void fillFileField(){
+        this.utils.insertImageFileInField(this.imageFileId, this.imageFilePath);
+    }
+
+    public void fillCKEditorField(String value){
+        this.utils.insertValueInCKEditorField(this.descriptionFieldId, value);
     }
 }
