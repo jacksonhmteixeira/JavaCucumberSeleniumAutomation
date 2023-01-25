@@ -73,7 +73,7 @@ Para executar a automação, clicar com o botão direito na classe "**Runner**",
 
 ### Resultado obtido pela automação:
 
-Após a executar do teste automatizado, no log é apresentado o resultado da execução.
+Após executar o teste automatizado, no log é apresentado o resultado da execução.
 Abaixo está a demonstração:
 
 <div align="center">
