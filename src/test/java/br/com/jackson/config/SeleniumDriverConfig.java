@@ -3,6 +3,7 @@ package br.com.jackson.config;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
@@ -23,21 +24,9 @@ public class SeleniumDriverConfig {
     }
 
     public WebDriver createWebDriver() {
-        String browserChoosed = System.getProperty("browser", "chrome");
-        return switch (browserChoosed) {
-            case "firefox" -> initFirefoxDriver();
-            case "chrome" -> initChromeDriver();
-            default -> new HtmlUnitDriver();
-        };
-    }
-
-    private WebDriver initChromeDriver() {
         System.setProperty("webdriver.chrome.driver", "driver/chromedriver");
-        return new ChromeDriver();
-    }
-
-    private WebDriver initFirefoxDriver() {
-        System.setProperty("webdriver.gecko.driver", "driver/geckodriver");
-        return new FirefoxDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        return new ChromeDriver(options);
     }
 }

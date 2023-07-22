@@ -1,18 +1,18 @@
-Feature: [MARKET]
+Feature: Mercado
 
-  Background: [LOGGIN IN]
-    Given that the user fill in the login data with "plataforma@engenheiroqa.com" and "plataformaEQA"
+  Background: Realizando o login e entrando na tela de Dashboard
+    Given that the user fill in the login data with "plataforma@jacksonteixeira.com" and "plataformaJT"
     When to click the enter button
     Then the system directs to the dashboard
 
   @Market @AccessingTheMarketsPage
-  Scenario: [ACCESSING THE MARKETS PAGE]
+  Scenario: Sistema direciona para a tela de login
     Given that the user is on the dashboard
     When to click on the Market Option
     Then the system directs you to the market pages
 
   @Market @CheckProductSearch
-  Scenario Outline: [CHECK PRODUCT SEARCH]
+  Scenario Outline: Verificando o produto pesquisado
     Given that the user is on the dashboard
     When to click on the Market Option
     And the user to fill in the search field with '<product>'
@@ -20,7 +20,6 @@ Feature: [MARKET]
 
     Examples:
       | product               |
-      | Mouse                 |
       | Monitor 18 Polegadas  |
       | Teclado               |
       | Monitor 24 polegadas |

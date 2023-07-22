@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 public class Browser {
 
     private final WebDriver driver;
-    private final String URL = "https://plataforma.engenheiroqa.com/";
+    private final String URL = "https://jacksonteixeira.com/plataforma/";
 
     public Browser() {
         this.driver = SeleniumDriverConfig.Instance().driver;

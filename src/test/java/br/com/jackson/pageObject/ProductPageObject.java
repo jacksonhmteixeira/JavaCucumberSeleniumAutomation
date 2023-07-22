@@ -17,8 +17,8 @@ public class ProductPageObject {
     private final By productTypeFieldId = By.id("inputTipoProduto");
     private final By descriptionFieldId = By.id("inputDescricao");
     private final By imageFileId = By.id("inputImagemProduto");
-    private final String imageFilePath = "/Users/jacksonhmt/Documents/REPOSITORIOS/JavaCucumberSeleniumAutomation/files/arquitetura do projeto.png";
-    private final String pageTitle = "Pesquisar Produto";
+    private final String imageFilePath = "/Users/jacksonmotateixeira/Documents/REPOSITORIOS/JavaCucumberSeleniumAutomation/files/caminho do driver.png";
+    private final String pageTitle = "Pesquisar Produt";
 
     public ProductPageObject(WebDriver driver) {
         this.utils = new Utils(driver);

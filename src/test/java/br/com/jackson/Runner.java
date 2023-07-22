@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "classpath:features",
         tags = "not @ignore",
         glue = {"br.com.jackson.steps", "br.com.jackson.hooks"},
-        plugin = {"pretty"},
+        plugin = {"pretty", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
         publish = true
 )
 public class Runner {

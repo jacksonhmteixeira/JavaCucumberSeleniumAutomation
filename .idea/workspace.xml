@@ -5,12 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dc3af73-9754-4b98-9c7a-d3e52e330eb8" name="Changes" comment="UPDATE - updating readme.md">
-      <change afterPath="$PROJECT_DIR$/files/AutomationIMG/arquitetura do projeto.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/driver/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/driver/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/config/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/config/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/config/SeleniumDriverConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/config/SeleniumDriverConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/hooks/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/pageObject/DashboardPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/pageObject/DashboardPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/pageObject/ProductPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/pageObject/ProductPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/DashboardSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/DashboardSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/MarketSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/MarketSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/ProductSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/steps/ProductSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/jackson/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/jackson/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Dashboard.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Dashboard.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Market.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Market.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Product.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Product.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +39,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/br/com/jackson/utils/Utils.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,8 +65,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/jacksonhmt/Documents/REPOSITORIOS/JavaCucumberSeleniumAutomation/files/AutomationIMG",
-    "project.structure.last.edited": "Problems",
+    "last_opened_file_path": "/Users/jacksonmotateixeira/Documents/REPOSITORIOS/JavaCucumberSeleniumAutomation/driver",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs"
@@ -59,6 +74,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/driver" />
       <recent name="$PROJECT_DIR$/files/AutomationIMG" />
       <recent name="$PROJECT_DIR$/files" />
     </key>

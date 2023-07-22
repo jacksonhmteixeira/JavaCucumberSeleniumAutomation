@@ -18,7 +18,7 @@ public class DashboardPageObject {
     }
 
     public void checkDashboardPageIsVibible() {
-        String url = "https://plataforma.engenheiroqa.com/#/painel";
+        String url = "https://jacksonteixeira.com/plataforma/painel";
         if (this.driver.getCurrentUrl().equals(url)) {
             Assert.assertTrue(true);
         }
